@@ -58,7 +58,7 @@ function App() {
             setMenuScreen={() => setCurrentScreen(MENU_SCREEN)}
           />
         );
-        break;
+        break
         case RUNNING_EXERCISE:
         screenComponent = (
           <RunningExercise
